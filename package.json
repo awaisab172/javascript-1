@@ -5,7 +5,9 @@
   "description": "Publish & Subscribe Real-time Messaging with PubNub",
   "bin": {},
   "scripts": {
-    "codecov": "cat coverage/lcov.info | codecov"
+    "codecov": "cat coverage/lcov.info | codecov",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "main": "./lib/node/index.js",
   "react-native": "./lib/react_native/index.js",
@@ -31,7 +33,8 @@
     "cbor-sync": "^1.0.4",
     "lil-uuid": "^0.1.1",
     "superagent": "^3.8.1",
-    "superagent-proxy": "^1.0.3"
+    "superagent-proxy": "^1.0.3",
+    "snyk": "^1.231.0"
   },
   "noAnalyze": false,
   "devDependencies": {
@@ -92,5 +95,6 @@
   "license": "MIT",
   "engine": {
     "node": ">=0.8"
-  }
+  },
+  "snyk": true
 }
