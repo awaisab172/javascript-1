@@ -30,7 +30,7 @@
     "agentkeepalive": "^3.5.2",
     "cbor-sync": "^1.0.4",
     "lil-uuid": "^0.1.1",
-    "superagent": "^3.8.1",
+    "superagent": "^7.0.2",
     "superagent-proxy": "^1.0.3"
   },
   "noAnalyze": false,
